@@ -12,13 +12,13 @@
         <center>
         <table border=1>
             <tr>
-                <td colspan=2><center><b>#####</b></center></td>
+                <td colspan=2><center><b>@yield('title_table')</b></center></td>
             </tr>
 
-            ###############
+           {{numero}}
 
             <tr>
-                <td colspan=2><center><b>#####</b></center></td>
+                <td colspan=2><center><b>@yield('footer')</b></center></td>
             </tr>
         </table>
         </center>
