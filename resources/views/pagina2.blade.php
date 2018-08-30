@@ -3,6 +3,6 @@
 
 @section('name','Tabla')
 
-@section('title','Tabla de Multiplicar')
+@section('title','Multiplicacion')
 
 @section('footer','2018')

@@ -29,12 +29,6 @@
         </table>
         </center>
 
-        <h1>MIS HOBBYS</h1>
-
-        @foreach($arreglo as $a)
-
-            <h3>{{$a}}</h3>
-        @endforeach
         
     </body>
 </html>

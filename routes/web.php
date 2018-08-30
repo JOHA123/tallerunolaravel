@@ -17,9 +17,9 @@ Route::get('/', function () {
 
 Route::get('/pagina1', function () {
     return view('pagina1',[
-        'name' => 'Johanna Chapal',
-        'phone' => '312 288 20 62',
-        'email' => 'dis.jch@gmail.com'
+        'name' => 'Jose Paz',
+        'phone' => '31875698745',
+        'email' => 'jlpj87@gmail.com'
     ]);
 });
 
@@ -30,7 +30,5 @@ Route::get('/pagina2/{numero}', function ($numero) {
     ]);
 });
 
-route::resource('/Noticias','NoticiasController');
 
-route::resource('/Tablas','TablasMultiplicarController');
     
