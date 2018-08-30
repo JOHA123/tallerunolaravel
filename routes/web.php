@@ -15,18 +15,17 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
 Route::get('/pagina1', function () {
-    return view ('pagina1',[
-        'name' =>'Johanna',
-        'phone' => '3122882062',
+    return view('pagina1',[
+        'name' => 'Johanna Chapal',
+        'phone' => '312 288 20 62',
         'email' => 'dis.jch@gmail.com'
     ]);
-    });
+});
 
-    Route::get('/pagina2/{numero}', function ($numero) {
-        return view ('pagina2',[
-            'numero' => $numero
 
-            ]);
-        });
+Route::get('/pagina2/{numero}', function ($numero) {
+    return view('pagina2',[
+        'numero' => $numero
+    ]);
+});
