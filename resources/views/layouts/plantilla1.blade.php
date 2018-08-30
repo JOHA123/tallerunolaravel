@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>TALLER UNO - ######</title>
+        <title>TALLER UNO - @yield('title')</title>
     </head>
     <body>
 
@@ -28,6 +28,13 @@
             </tr>
         </table>
         </center>
+
+        <h1>MIS HOBBYS</h1>
+
+        @foreach($arreglo as $a)
+
+            <h3>{{$a}}</h3>
+        @endforeach
         
     </body>
 </html>

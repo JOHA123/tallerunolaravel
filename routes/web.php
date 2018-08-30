@@ -29,3 +29,8 @@ Route::get('/pagina2/{numero}', function ($numero) {
         'numero' => $numero
     ]);
 });
+
+route::resource('/Noticias','NoticiasController');
+
+route::resource('/Tablas','TablasMultiplicarController');
+    
